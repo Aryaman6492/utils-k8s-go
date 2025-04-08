@@ -8,7 +8,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/armosec/utils-k8s-go/wlid"
+	"github.com/Aryaman6492/utils-k8s-go/wlid"
 	"github.com/cilium/cilium/pkg/labels"
 	"github.com/olvrng/ujson"
 	"github.com/spf13/viper"

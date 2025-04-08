@@ -1,4 +1,4 @@
-module github.com/armosec/utils-k8s-go
+module github.com/Aryaman6492/utils-k8s-go
 
 go 1.23.2
 
