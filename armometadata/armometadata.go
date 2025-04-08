@@ -21,8 +21,8 @@ type ClusterConfig struct {
 	AccountID             string `json:"accountID"`           // use accountID instead of customerGUID
 	GatewayWebsocketURL   string `json:"gatewayWebsocketURL"` // in-cluster gateway component websocket url
 	GatewayRestURL        string `json:"gatewayRestURL"`      // in-cluster gateway component REST API url
-	shieldvulnURL           string `json:"shieldvulnURL"`         // in-cluster shieldvuln component REST API url
-	seclogicURL          string `json:"seclogicURL"`        // in-cluster seclogic component REST API url
+	ShieldvulnURL           string `json:"shieldvulnURL"`         // in-cluster shieldvuln component REST API url
+	SeclogicURL          string `json:"seclogicURL"`        // in-cluster seclogic component REST API url
 	ContinuousPostureScan bool   `json:"continuousPostureScan"`
 	armotypes.InstallationData
 }

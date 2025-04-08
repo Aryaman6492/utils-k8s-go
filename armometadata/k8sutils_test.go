@@ -81,8 +81,8 @@ func TestLoadClusterConfig(t *testing.T) {
 				AccountID:           "ed1e102b-13eb-4d25-b078-e10386305b26",
 				GatewayWebsocketURL: "gateway:8001",
 				GatewayRestURL:      "gateway:8002",
-				shieldvulnURL:         "shieldvuln:8080",
-				seclogicURL:        "seclogic:8080",
+				ShieldvulnURL:         "shieldvuln:8080",
+				SeclogicURL:        "seclogic:8080",
 				InstallationData: armotypes.InstallationData{
 					Namespace:                                 "seclogic",
 					ImageVulnerabilitiesScanningEnabled:       ptr.To(true),
